@@ -1,0 +1,5 @@
+SELECT game, COUNT(*)
+FROM stream
+GROUP BY game
+ORDER BY 2 DESC
+LIMIT 10
